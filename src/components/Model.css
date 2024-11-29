@@ -1,0 +1,104 @@
+/* Styling for the Display Button */
+.display-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f4f4f4;
+    color: rgb(18, 17, 17);
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    padding-left: 6px;
+  }
+  
+  .display-btn:hover {
+    background-color:#f4f4f4;
+  }
+  
+  
+  
+    .modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5); 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+      }
+      
+   
+  
+  
+  .modal {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 244px;
+   
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 47px;
+    left: 54px;
+
+  }
+  
+  .modal h2 {
+    margin-top: 0;
+  }
+  
+  .grouping,
+  .sorting {
+    display: flex;
+    width: 48%;
+    margin-right: 4%;
+  }
+  
+  select {
+    width: 150px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-left: 23px;
+    height: 33px;
+  }
+  
+ 
+  
+  /* Adjust the modal actions to be inline */
+  .modal-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Buttons inside modal */
+  button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #f4f4f4;
+    
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f4f4f4;
+  }
+
+  .inLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    align-items: center;
+  }
+  select {
+    width: 150px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-left: 23px;
+}
+  

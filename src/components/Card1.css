@@ -1,0 +1,93 @@
+/* Card container */
+.card {
+    background: white;
+    width: 270px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    gap: 12px;
+    position: relative;
+    font-family: Arial, sans-serif;
+  }
+  .card-header-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Ensures the two children are placed at opposite ends */
+    align-items: center; /* Vertically aligns items to the center */
+  }
+  
+  /* Header styles */
+  .card-header {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2d3748;
+  }
+  
+  .card-id {
+    color: #718096;
+    font-size: 12px;
+  }
+  
+  /* Title styles */
+  .card-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #2d3748;
+    display: flex;
+    justify-content: start;
+    
+  }
+  
+  /* Tags container */
+  .card-tags {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  /* Priority badge */
+  .card-priority {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .priority-icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  /* Tag styles */
+  .card-tag {
+    background: #edf2f7;
+    color: #4a5568;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  /* User container */
+  .card-user {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .user-name {
+    font-size: 14px;
+    color: #4a5568;
+  }
+  
